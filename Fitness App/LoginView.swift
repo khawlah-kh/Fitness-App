@@ -19,7 +19,7 @@ struct LoginView: View {
                         .font(.title3)
                         .bold()
                         .padding(.bottom,1)
-                    Text("DevTechie!")
+                    Text("Khawlah!")
                         .foregroundColor(.white)
                          .font(.title)
                          .bold()
@@ -63,7 +63,7 @@ struct LoginView: View {
             .padding()
             Spacer()
                 .fullScreenCover(isPresented: $isPresented) {
-                    Text("Fitness Home Screen")
+                    FitnessDashboard()
                 }
         }
     }

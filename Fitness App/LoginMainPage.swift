@@ -14,6 +14,7 @@ struct LoginMainPage: View {
     var body: some View {
         VStack{
             FitnessImage(imageName: "circles.hexagongrid.fill")
+                .padding(.top,56)
             HStack(spacing:0){
                 Button {
                     withAnimation(.spring()) {
