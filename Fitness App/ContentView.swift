@@ -16,20 +16,13 @@ struct ContentView: View {
                 ScrollView(.vertical,showsIndicators: false){
                     
                     LoginMainPage()
-                    
-                  
+   
                 }
             }
             else{
                 
                 LoginMainPage()
-                
-               
-                
-                
             }
-            
-            
         }
         .background {
             Color.black.ignoresSafeArea()

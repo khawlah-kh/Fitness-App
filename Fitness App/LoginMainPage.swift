@@ -15,7 +15,7 @@ struct LoginMainPage: View {
             Image (systemName: "circles.hexagongrid.fill")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 100, height: 100)
+                .frame(width: 80, height: 80)
                 .padding()
             
             HStack(spacing:0){
@@ -28,7 +28,7 @@ struct LoginMainPage: View {
                     VStack{
                         Text("Login")
                             .foregroundColor(index == 0 ? .white : .gray)
-                            .font(.title2)
+                            .font(.title3)
                             .bold()
                         ZStack{
                             Capsule()
@@ -52,7 +52,7 @@ struct LoginMainPage: View {
                     VStack{
                         Text("Sign Up")
                             .foregroundColor(index == 1 ? .white : .gray)
-                            .font(.title2)
+                            .font(.title3)
                             .bold()
                         ZStack{
                             Capsule()
@@ -71,8 +71,7 @@ struct LoginMainPage: View {
             }
             Spacer()
             if index == 0{
-                //Log in
-                Text("log in")
+                LoginView()
             }
             else{
                 //sign up
