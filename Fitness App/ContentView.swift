@@ -16,7 +16,7 @@ struct ContentView: View {
                 ScrollView(.vertical,showsIndicators: false){
                     
                     LoginMainPage()
-   
+                    
                 }
             }
             else{

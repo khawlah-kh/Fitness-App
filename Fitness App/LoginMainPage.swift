@@ -8,18 +8,13 @@
 import SwiftUI
 
 struct LoginMainPage: View {
+    
     @State var index = 0
     @Namespace var name
     var body: some View {
         VStack{
-            Image (systemName: "circles.hexagongrid.fill")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 80, height: 80)
-                .padding()
-            
+            FitnessImage(imageName: "circles.hexagongrid.fill")
             HStack(spacing:0){
-                
                 Button {
                     withAnimation(.spring()) {
                         index = 0
@@ -77,7 +72,10 @@ struct LoginMainPage: View {
                 SignupView()
             }
         }
+        
+ 
     }
+
 }
 
 struct LoginMainPage_Previews: PreviewProvider {

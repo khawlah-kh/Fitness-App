@@ -25,53 +25,23 @@ struct LoginView: View {
                          .bold()
                          .padding(.bottom,1)
                        
-                    
                     Button {
                         
                     } label: {
-                        Text("Not Me?")
-                            .foregroundColor(.FitnessBlue)
-                            .fontWeight(.semibold)
-                            .font(.footnote)
-                        
+                        FooterButton(title: "Not Me?")
                     }
-
-                    
-                    
-                    
-                    
                 }
                 Spacer()
-                Image(systemName: "person.circle")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 80, height: 80)
-                
-                
+                FitnessImage(imageName: "person.circle")
             }
             .padding()
             VStack(alignment: .leading, spacing: 15) {
-                Text("Password")
-                    .font(.caption)
-                    .bold()
-                    .foregroundColor(.gray)
-                SecureField("Password", text: $password)
-                    .padding()
-                    .frame(width: UIScreen.main.bounds.width-50)
-                    .background(.white)
-                    .foregroundColor(.gray.opacity(0.8))
-                    .cornerRadius(5)
-                    .shadow(color: .white.opacity(0.1), radius: 5, x: 0, y: 5)
-                    .shadow(color: .white.opacity(0.08), radius: 5, x: 0, y: -5)
+                PasswordField(password: $password)
                 
                 Button {
                     
                 } label: {
-                    Text("Forget Password?")
-                        .foregroundColor(.FitnessBlue)
-                        .fontWeight(.semibold)
-                        .font(.footnote)
-                    
+                    FooterButton(title: "Forget Password?")
                 }
                 
                 Button {
@@ -79,47 +49,19 @@ struct LoginView: View {
                     
                 } label: {
                     
-                    Text("Login")
-                        .bold()
-                        .foregroundColor(.white)
-                        .padding(.vertical)
-                        .frame(width: UIScreen.main.bounds.width-50)
-                        .background(LinearGradient(colors: [.FitnessBlue,.purple], startPoint: .topLeading, endPoint: .bottomTrailing))
-                        .cornerRadius(8)
-                        .padding(.top)
+                    FitnessButton(title: "Login")
                 }
                 Button {
                    
                     
                 } label: {
-                    
-                    HStack{
-                        Image(systemName: "faceid")
-                            .foregroundColor(.FitnessBlue)
-                        Text("Login with Face ID")
-                            .bold()
-                            .foregroundColor(.white)
-                            .padding(.vertical)
-                    }
-                    .frame(width: UIScreen.main.bounds.width-50)
-                    .background(RoundedRectangle(cornerRadius: 8).stroke(Color.FitnessBlue,lineWidth: 1))
-                    .cornerRadius(8)
-                    .padding(.top)
-
-                    
+                    faceIdButton
                 }
 
                     
             }
             .padding()
-            
-            
-            
-            
-            
-            
             Spacer()
-            
                 .fullScreenCover(isPresented: $isPresented) {
                     Text("Fitness Home Screen")
                 }
