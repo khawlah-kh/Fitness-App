@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		906F5B9227DC7E1D00D98331 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906F5B9127DC7E1D00D98331 /* LoginView.swift */; };
+		906F5B9427DC9D3700D98331 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906F5B9327DC9D3700D98331 /* SignupView.swift */; };
 		90CBD2AB27DB456700AC4F7E /* Fitness_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CBD2AA27DB456700AC4F7E /* Fitness_AppApp.swift */; };
 		90CBD2AD27DB456700AC4F7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CBD2AC27DB456700AC4F7E /* ContentView.swift */; };
 		90CBD2AF27DB456900AC4F7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90CBD2AE27DB456900AC4F7E /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		906F5B9127DC7E1D00D98331 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		906F5B9327DC9D3700D98331 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		90CBD2A727DB456700AC4F7E /* Fitness App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fitness App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90CBD2AA27DB456700AC4F7E /* Fitness_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_AppApp.swift; sourceTree = "<group>"; };
 		90CBD2AC27DB456700AC4F7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				90CBD2AC27DB456700AC4F7E /* ContentView.swift */,
 				90CBD2B827DB49C000AC4F7E /* LoginMainPage.swift */,
 				906F5B9127DC7E1D00D98331 /* LoginView.swift */,
+				906F5B9327DC9D3700D98331 /* SignupView.swift */,
 				90CBD2AE27DB456900AC4F7E /* Assets.xcassets */,
 				90CBD2BA27DB4FF300AC4F7E /* Extension.swift */,
 				90CBD2B027DB456900AC4F7E /* Preview Content */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				906F5B9427DC9D3700D98331 /* SignupView.swift in Sources */,
 				90CBD2AD27DB456700AC4F7E /* ContentView.swift in Sources */,
 				90CBD2AB27DB456700AC4F7E /* Fitness_AppApp.swift in Sources */,
 				90CBD2B927DB49C000AC4F7E /* LoginMainPage.swift in Sources */,

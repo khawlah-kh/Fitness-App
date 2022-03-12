@@ -69,13 +69,12 @@ struct LoginMainPage: View {
                     
                 }
             }
-            Spacer()
+          
             if index == 0{
                 LoginView()
             }
             else{
-                //sign up
-                Text("Sign up")
+                SignupView()
             }
         }
     }
