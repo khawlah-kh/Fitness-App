@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		901EB83327DDA594007DF30D /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901EB83227DDA594007DF30D /* Stats.swift */; };
+		901EB83527DDA94B007DF30D /* FitnessStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901EB83427DDA94B007DF30D /* FitnessStatsView.swift */; };
 		906F5B9227DC7E1D00D98331 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906F5B9127DC7E1D00D98331 /* LoginView.swift */; };
 		906F5B9427DC9D3700D98331 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906F5B9327DC9D3700D98331 /* SignupView.swift */; };
 		906F5B9627DCA22800D98331 /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906F5B9527DCA22800D98331 /* CustomViews.swift */; };
 		906F5B9927DCA2AD00D98331 /* FitnessButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906F5B9827DCA2AD00D98331 /* FitnessButton.swift */; };
 		906F5B9B27DCA33700D98331 /* FitnessImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906F5B9A27DCA33700D98331 /* FitnessImage.swift */; };
-		906F5B9D27DCA3C300D98331 /* SegmentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906F5B9C27DCA3C300D98331 /* SegmentButton.swift */; };
 		906F5B9F27DCA68D00D98331 /* PasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906F5B9E27DCA68D00D98331 /* PasswordField.swift */; };
 		906F5BA127DCA74C00D98331 /* UsernameField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906F5BA027DCA74C00D98331 /* UsernameField.swift */; };
 		906F5BA327DCA7F400D98331 /* FooterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906F5BA227DCA7F400D98331 /* FooterButton.swift */; };
@@ -26,16 +27,16 @@
 		90FAB84C27DCD79A0056400A /* FitnessDaily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FAB84B27DCD79A0056400A /* FitnessDaily.swift */; };
 		90FAB84E27DCD8B70056400A /* FitnessRoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FAB84D27DCD8B70056400A /* FitnessRoundedShape.swift */; };
 		90FAB85127DCD9B50056400A /* FitnessBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FAB85027DCD9B50056400A /* FitnessBarChart.swift */; };
-		90FAB85327DCE5C30056400A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FAB85227DCE5C30056400A /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		901EB83227DDA594007DF30D /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		901EB83427DDA94B007DF30D /* FitnessStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessStatsView.swift; sourceTree = "<group>"; };
 		906F5B9127DC7E1D00D98331 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		906F5B9327DC9D3700D98331 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		906F5B9527DCA22800D98331 /* CustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
 		906F5B9827DCA2AD00D98331 /* FitnessButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessButton.swift; sourceTree = "<group>"; };
 		906F5B9A27DCA33700D98331 /* FitnessImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessImage.swift; sourceTree = "<group>"; };
-		906F5B9C27DCA3C300D98331 /* SegmentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentButton.swift; sourceTree = "<group>"; };
 		906F5B9E27DCA68D00D98331 /* PasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordField.swift; sourceTree = "<group>"; };
 		906F5BA027DCA74C00D98331 /* UsernameField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameField.swift; sourceTree = "<group>"; };
 		906F5BA227DCA7F400D98331 /* FooterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterButton.swift; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		90FAB84B27DCD79A0056400A /* FitnessDaily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessDaily.swift; sourceTree = "<group>"; };
 		90FAB84D27DCD8B70056400A /* FitnessRoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessRoundedShape.swift; sourceTree = "<group>"; };
 		90FAB85027DCD9B50056400A /* FitnessBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessBarChart.swift; sourceTree = "<group>"; };
-		90FAB85227DCE5C30056400A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,25 +64,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		906F5B9727DCA27200D98331 /* Views */ = {
+		906F5B9727DCA27200D98331 /* Subviews */ = {
 			isa = PBXGroup;
 			children = (
+				90861CE527DDC5D80083176D /* Custom Views */,
 				90FAB84F27DCD9A00056400A /* Chart */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		90861CE427DDC5AF0083176D /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				90CBD2AC27DB456700AC4F7E /* ContentView.swift */,
+				90CBD2B827DB49C000AC4F7E /* LoginMainPage.swift */,
+				906F5B9127DC7E1D00D98331 /* LoginView.swift */,
+				906F5B9327DC9D3700D98331 /* SignupView.swift */,
+				90FAB84827DCD3940056400A /* FitnessDashboard.swift */,
+			);
+			path = "Main Views";
+			sourceTree = "<group>";
+		};
+		90861CE527DDC5D80083176D /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
 				906F5B9527DCA22800D98331 /* CustomViews.swift */,
 				906F5B9827DCA2AD00D98331 /* FitnessButton.swift */,
 				906F5B9A27DCA33700D98331 /* FitnessImage.swift */,
-				906F5B9C27DCA3C300D98331 /* SegmentButton.swift */,
 				906F5B9E27DCA68D00D98331 /* PasswordField.swift */,
 				906F5BA027DCA74C00D98331 /* UsernameField.swift */,
 				906F5BA227DCA7F400D98331 /* FooterButton.swift */,
 			);
-			path = Views;
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		90861CE627DDC5F20083176D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				90CBD2BA27DB4FF300AC4F7E /* Extension.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		90CBD29E27DB456700AC4F7E = {
 			isa = PBXGroup;
 			children = (
-				90FAB84A27DCD7880056400A /* Model */,
 				90CBD2AA27DB456700AC4F7E /* Fitness_AppApp.swift */,
 				90CBD2A927DB456700AC4F7E /* Fitness App */,
 				90CBD2A827DB456700AC4F7E /* Products */,
@@ -100,14 +126,11 @@
 		90CBD2A927DB456700AC4F7E /* Fitness App */ = {
 			isa = PBXGroup;
 			children = (
-				90CBD2AC27DB456700AC4F7E /* ContentView.swift */,
-				90CBD2B827DB49C000AC4F7E /* LoginMainPage.swift */,
-				906F5B9127DC7E1D00D98331 /* LoginView.swift */,
-				906F5B9327DC9D3700D98331 /* SignupView.swift */,
-				90FAB84827DCD3940056400A /* FitnessDashboard.swift */,
-				906F5B9727DCA27200D98331 /* Views */,
+				90FAB84A27DCD7880056400A /* Model */,
+				90861CE427DDC5AF0083176D /* Main Views */,
+				906F5B9727DCA27200D98331 /* Subviews */,
+				90861CE627DDC5F20083176D /* Utilities */,
 				90CBD2AE27DB456900AC4F7E /* Assets.xcassets */,
-				90CBD2BA27DB4FF300AC4F7E /* Extension.swift */,
 				90CBD2B027DB456900AC4F7E /* Preview Content */,
 			);
 			path = "Fitness App";
@@ -125,7 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				90FAB84B27DCD79A0056400A /* FitnessDaily.swift */,
-				90FAB85227DCE5C30056400A /* Constants.swift */,
+				901EB83227DDA594007DF30D /* Stats.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -135,6 +158,7 @@
 			children = (
 				90FAB84D27DCD8B70056400A /* FitnessRoundedShape.swift */,
 				90FAB85027DCD9B50056400A /* FitnessBarChart.swift */,
+				901EB83427DDA94B007DF30D /* FitnessStatsView.swift */,
 			);
 			path = Chart;
 			sourceTree = "<group>";
@@ -215,6 +239,7 @@
 				906F5B9B27DCA33700D98331 /* FitnessImage.swift in Sources */,
 				906F5B9427DC9D3700D98331 /* SignupView.swift in Sources */,
 				90FAB84C27DCD79A0056400A /* FitnessDaily.swift in Sources */,
+				901EB83327DDA594007DF30D /* Stats.swift in Sources */,
 				906F5BA127DCA74C00D98331 /* UsernameField.swift in Sources */,
 				90CBD2AD27DB456700AC4F7E /* ContentView.swift in Sources */,
 				906F5B9627DCA22800D98331 /* CustomViews.swift in Sources */,
@@ -225,8 +250,7 @@
 				906F5B9227DC7E1D00D98331 /* LoginView.swift in Sources */,
 				906F5B9927DCA2AD00D98331 /* FitnessButton.swift in Sources */,
 				90CBD2BB27DB4FF300AC4F7E /* Extension.swift in Sources */,
-				906F5B9D27DCA3C300D98331 /* SegmentButton.swift in Sources */,
-				90FAB85327DCE5C30056400A /* Constants.swift in Sources */,
+				901EB83527DDA94B007DF30D /* FitnessStatsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

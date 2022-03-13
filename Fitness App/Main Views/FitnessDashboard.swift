@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct FitnessDashboard: View {
-    @State var selected  = UUID()
     @State var colors : [Color] = [.FitnessBlue , .purple]
     @Environment(\.presentationMode) var presentationMode
     var body: some View {
@@ -17,9 +16,10 @@ struct FitnessDashboard: View {
                 HStack{
                     Text("Hello Khawlah!")
                         .foregroundColor(.white)
-                         .font(.title)
-                         .bold()
-                         .padding(.bottom,1)
+                        .font(.title)
+                        .bold()
+                        .padding(.bottom,1)
+                        .padding(.leading)
                     
                     Spacer()
                     Button {
@@ -30,13 +30,11 @@ struct FitnessDashboard: View {
                             .font(.largeTitle)
                             .foregroundColor(.white)
                     }
-
-                    
-                    
                     
                 }
-                FitnessBarChart(selected: $selected, colors: colors)
-                .padding()
+                FitnessBarChart(colors: colors)
+                    .padding()
+                FitnessStatsView()
                 
             }
             
@@ -53,6 +51,6 @@ struct FitnessDashboard: View {
 struct FitnessDashboard_Previews: PreviewProvider {
     static var previews: some View {
         FitnessDashboard()
-            
+        
     }
 }

@@ -25,7 +25,6 @@ struct SignupView: View {
                 PasswordField(password: $password)
             
                 Button {
-                    //.isPresented.toggle()
                     
                 } label: {
                     

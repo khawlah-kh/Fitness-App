@@ -14,17 +14,17 @@ struct LoginView: View {
         VStack{
             HStack{
                 VStack(alignment:.leading){
-                   Text("Welcome back")
+                    Text("Welcome back")
                         .foregroundColor(.white)
                         .font(.title3)
                         .bold()
                         .padding(.bottom,1)
                     Text("Khawlah!")
                         .foregroundColor(.white)
-                         .font(.title)
-                         .bold()
-                         .padding(.bottom,1)
-                       
+                        .font(.title)
+                        .bold()
+                        .padding(.bottom,1)
+                    
                     Button {
                         
                     } label: {
@@ -52,13 +52,9 @@ struct LoginView: View {
                     FitnessButton(title: "Login")
                 }
                 Button {
-                   
-                    
                 } label: {
                     faceIdButton
                 }
-
-                    
             }
             .padding()
             Spacer()
